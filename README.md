@@ -20,5 +20,11 @@ To check staged files
 To check history of commits (on current branch)
 - git log 
 
+To create a branch
+- git branch <branch_name>
+
+To shift a branch
+- git checkout <branch_name>
+
 To rename a branch
 - git branch -m <old_branch_name> <new_branch_name>
