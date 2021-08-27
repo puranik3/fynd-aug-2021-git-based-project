@@ -28,3 +28,8 @@ To shift a branch
 
 To rename a branch
 - git branch -m <old_branch_name> <new_branch_name>
+
+To merge from another branch
+Shift to the branch into which you want to bring the commits from another branch (eg. we checkout main / master)
+- git merge <other_branch_name>
+You may get merge conflicts in multiple files (potentially) - resolve them, test the file, and then commit.
