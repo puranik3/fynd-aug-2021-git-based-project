@@ -4,3 +4,18 @@
 
 ## References
 - [Git website docs](https://git-scm.com/doc)
+
+## Steps
+- git init
+
+Create files and stage them (Add to staging area and make them ready for a commit)
+- git add .
+
+Commit them
+- git commit -m "First cut - blah blah"
+
+To check staged files
+- git status
+
+To check history of commits (on current branch)
+- git log
