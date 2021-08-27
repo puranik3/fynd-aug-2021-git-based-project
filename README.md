@@ -33,3 +33,9 @@ To merge from another branch
 Shift to the branch into which you want to bring the commits from another branch (eg. we checkout main / master)
 - git merge <other_branch_name>
 You may get merge conflicts in multiple files (potentially) - resolve them, test the file, and then commit.
+
+## Working with GitHub
+Create a GitHub repo (login and create a new repo). Follow the steps shown after creating repo (skip the steps that create the local git repo and commit)
+- git remote add origin <origin_url>
+- git push -u origin <branch_to_push_to_on_remote>
+_NOTE_: branch_to_push_to_on_remote is usually same as the current local branch name (eg. main / master / ...etc.)
